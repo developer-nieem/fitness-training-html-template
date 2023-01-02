@@ -1,0 +1,125 @@
+
+
+@media screen and (max-width: 992px) {
+    
+    .service-info h2{
+    font-size: 22px !important;
+}
+/* Fitness services Css End */
+   .summer-area{
+    height: 308px;
+   }
+.habits-area{
+    height: 299px;
+}
+.footer-info a{
+    margin: 20px 9px 15px 0px !important;
+    font-size: 12px !important;
+}
+}
+
+/* Media Width 767 Start */
+
+@media screen and (max-width: 767px){
+    .fitness-header{
+    height: 400px !important;
+}
+/* Fitness Header Css part End */
+
+.service-info{
+    padding-top: 40px !important;
+    padding-bottom: 10px !important;
+    
+}
+
+.active-user{
+    height: 242px !important;
+}
+.product-user{
+    height: 242px !important;
+}
+
+/* Fitness Services  css part End  */
+
+.leader-section{
+   height:380px !important;
+}
+.leader-bg-img{
+    height: 100% !important ;
+    width: 100% !important;
+}
+.bottom-triangle{
+    bottom: -1px !important;
+}
+.leader-info{
+    padding-top: 20% !important;
+}
+.leader-info h3{
+    font-size: 25px;
+}
+.leader-info p{ 
+  width: 80% !important;
+  padding-bottom: 25px;
+}
+/* Leader Part Css End */
+.footer-section{
+    padding-top:30px !important;
+}
+
+ .suscribe-form input{
+    margin-bottom: 8px;
+    width: 100% !important;
+ }
+
+
+
+}
+
+
+/* Media Width 576 Start */
+
+@media screen and (max-width: 576px){
+ 
+    .service-info{
+    padding-top: 40px !important;
+    padding-bottom: 10px !important;
+    
+}
+
+/* Fitness Services  css part End  */
+
+.leader-section{
+   height:325px !important;
+}
+.leader-bg-img{
+    height: 100% !important ;
+    width: 100% !important;
+}
+.leader-info{
+    padding-top: 15% !important;
+}
+.leader-info h3{
+    font-size: 24px;
+}
+.leader-info p{ 
+  width: 80% !important;
+  padding-bottom: 25px;
+}
+.bottom-triangle{
+    bottom: -1px !important;
+}
+
+/* Leader Part Css End */
+.footer-section{
+    padding-top:30px !important;
+}
+
+ .suscribe-form input{
+    margin-bottom: 8px;
+ }
+
+}
+
+
+
+

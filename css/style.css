@@ -1,0 +1,314 @@
+*{margin:0px; padding:0px;
+scroll-behavior: smooth;
+}
+@font-face {
+    font-family:AvenirNextRoundedReg;
+    src: url('../font/avenir/AvenirNextRoundedProRegular.TTF');
+}
+body {
+    overflow-x: hidden;
+    font-family:AvenirNextRoundedReg;
+}
+
+/* Reset Css End */
+
+.fitness-header{
+    background: url('../img/Fitness_header.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.fitnes-header-nav{
+    padding-top: 20px;
+}
+
+.coustom-menu li{
+    margin-right: 30px;
+}
+.coustom-menu li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.coustom-menu li a:hover{
+    color: #eae4e4;
+}
+.fitness-header-info{
+    position: absolute;
+    left: 5%;
+    bottom: 7%;
+}
+.fitness-header-info h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+.fitness-header-info h5{
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 166px;
+}
+
+
+
+/* Fitness Header Css part End */
+
+/* Fitness Eervices Css part Start */
+
+.fitness-services{
+    background: #A2CA29;
+}
+
+.top-divider{
+    position: relative
+}
+
+.blueDiagonal{
+   
+   height:0;
+   position:absolute;
+   top:-64px;
+   border-bottom: 64px solid  #ac41b55e;
+   border-left: 100vw solid transparent;
+}/* Divider Css End */
+.service-info{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.service-info img{
+    margin-bottom: 15px;
+}
+.service-info h2{
+    font-size: 22px;
+    font-weight:700;
+    padding-bottom: 12px;
+}
+.service-info a{
+    color: #fff;
+}
+
+.fitness-first{
+    background: #fff;
+    padding: 30px;
+    padding-bottom: 83px;
+}
+.fitness-first h4{
+    font-size: 16px;
+    color: #fd634e;
+}
+.fitness-first h2{
+    color: #a2ca28;
+    padding:0px  0px 12px 0px ;
+}
+.fitness-first img{
+    margin-bottom: 16px;
+}
+.fitness-first a{
+     color: #fd634e;
+    
+}
+
+.active-user{
+    background: url('../img/activeuser.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%
+}
+.active-user h3{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    color: #a2ca28;
+}
+/* Fitness First Css End */
+.product-user{
+    background: url('../img/priductuse.png');
+    background-size: cover;
+    height: 100%;
+
+}
+
+.product-user h3{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: #FFF;
+}
+
+.your-body{
+    background: #fff;
+    padding: 30px;
+    padding-bottom: 83px;
+}
+.your-body h4{
+    font-size: 16px;
+    color: #fd634e;
+}
+.your-body h2{
+    color: #a2ca28;
+    padding:0px  0px 12px 0px ;
+}
+.your-body img{
+    margin-bottom: 16px;
+}
+.your-body a{
+     color: #fd634e;
+    
+}
+/* Fitness Services  css part End  */
+
+.life-section-part{
+    background: #FD634E;
+}
+.excersice-part img{
+    width: 100%;
+    height: 347px;
+}
+.health-part{
+    height: 347px;
+    position: relative;
+}
+.health-bg-img{
+    background: url('../img/health-.png');
+    background-size: cover;
+    height: 100%;
+
+}
+
+.health-bg-img h3{
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.health-bg-img h4{
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+/* Exercise And  Health Css End */
+
+.life-style-info{
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 33px; 
+}
+.life-style-info h4{
+    color: #fd634e;
+    font-size: 15px;
+}
+.life-style-info h2{
+    color: #a2ca28;
+    padding-bottom: 22px; 
+}
+.life-style-info i{
+    position: absolute;
+    top: 58px;
+    right: 20px;
+    color: #ccc;
+}
+.summer-area{
+    background: #A2CA28;
+    padding: 30px;
+    padding-bottom: 124px;
+    box-shadow: 1px 2px 17px #796c6c;
+}
+
+/* LifeStyle And  Summer Css End */
+
+
+.foods-left-area img{
+    width: 100%;
+    height: 347px;
+}
+.foods-right-area img{
+    width: 100%;
+    height: 347px;
+}
+
+/* Food Left And  Right  Css End */
+
+.involved-yourself-info{
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 33px; 
+}
+.involved-yourself-info h4{
+    color: #fd634e;
+    font-size: 15px;
+}
+.involved-yourself-info h2{
+    color: #a2ca28;
+    padding-bottom: 22px; 
+}
+.involved-yourself-info i{
+    position: absolute;
+    top: 58px;
+    right: 25px;
+    color: #ccc;
+}
+
+.habits-area{
+    background: #A2CA28;
+    padding: 25px;
+}
+.habits-area h4{
+    color: #fff;
+    font-size: 15px;
+}
+.habits-area h2{
+    color: #fff;
+}
+.habits-area i{
+    position: absolute;
+    top: 62px;
+    right: 25px;
+    color: #fff;
+}
+
+/* Involved And Habits Css End */
+.leader-section{
+    height: 520px;
+    width: 100%;
+}
+.leader-bg-img{
+    background: url('../img/leader.png');
+    background-size: cover;
+    height: 112%;
+    width: 100%;
+    position: relative;
+}
+.leader-info{ 
+padding-top: 20%;
+}
+.bottom-triangle{
+    fill: #000;
+    position: absolute;
+    bottom: -52px;
+}
+
+/* Leader Part Css End */
+
+.footer-section{
+    background: #000;
+   
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.footer-info{
+    color: #ffffffde;
+}
+.footer-info a{
+
+    margin: 20px 12px 15px 0px;
+    display: inline-block
+}
